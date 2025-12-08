@@ -30,20 +30,6 @@ function updateSlider() {
 
 updateSlider();
 
-
-function openFullscreenImage(element) {
-  const fullscreenContainer = document.getElementById('fullscreen-container');
-  const fullscreenImage = document.getElementById('fullscreen-image');
-
-  fullscreenImage.src = element.src;
-  fullscreenContainer.style.display = 'block';
-}
-
-function closeFullscreenImage() {
-  const fullscreenContainer = document.getElementById('fullscreen-container');
-  fullscreenContainer.style.display = 'none';
-}
-
 window.onscroll = function() {
   scrollFunction();
 };
@@ -71,3 +57,4 @@ function scrollToTop() {
   }, 15);
 
 }
+
