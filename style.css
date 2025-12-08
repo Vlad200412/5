@@ -1,19 +1,8 @@
-header
+nav
 {
-  align-items: flex-start
-  h1
-  {
-    text-align: center;
-    color:#eeff00;
-  }
-  img src
-  {
-    text-align: center
-  }
-}
-.text_o_nas
-{
-  text-align:center;   
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 #scrollToTopButton
 {
@@ -45,4 +34,5 @@ body
     transition: transform 0.5s ease-in-out;
   }
 }
+
 
