@@ -1,6 +1,9 @@
-h0
+header
 {
-  color:#eeff00;
+  h1
+  {
+    color:#eeff00;
+  }
 }
 nav
 {
@@ -40,4 +43,5 @@ body
   align-items: center;
   transition: transform 0.5s ease-in-out;
 }
+
 
