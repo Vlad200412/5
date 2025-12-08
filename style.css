@@ -1,5 +1,6 @@
 header
 {
+  align-items: flex-start
   h1
   {
     text-align: center;
@@ -44,3 +45,4 @@ body
     transition: transform 0.5s ease-in-out;
   }
 }
+
