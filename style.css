@@ -1,27 +1,8 @@
 nav
 {
   display: flex;
+  justify-content: flex-start;
   align-items: flex-start;
-}
-.column-container
-{
-  display: flex;
-  align-items: center;
-}
-.text_o_nas
-{
-  display: flex;
-  align-items: center;
-}
-.logo
-{
-  display: flex;
-  align-items: center;
-}
-.site-title
-{
-  display: flex;
-  align-items: center;
 }
 #scrollToTopButton
 {
@@ -42,9 +23,16 @@ body
   background-color: #1e1e1e;
   color: #fff;
   font-size: 20px;
+  text-align: center
   h4
   {
       color:#ff0000;
   }
 }
-
+.slider
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
