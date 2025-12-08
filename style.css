@@ -2,10 +2,6 @@ header
 {
   background-color: #1e1e1e;
   color: #fff;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 #scrollToTopButton
@@ -37,6 +33,7 @@ body
         color:#ff0000
     }
 }
+
 
 
 
