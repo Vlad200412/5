@@ -9,8 +9,6 @@ header {
 }
 
 .logo img {
-  width: 150px;
-  height: 150px;
   margin-right: 60px;
 }
 
@@ -48,4 +46,5 @@ nav a {
 nav a:hover {
   color: #ff6600;
 }
+
 
