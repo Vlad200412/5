@@ -23,7 +23,7 @@ body
   background-color: #1e1e1e;
   color: #fff;
   font-size: 20px;
-  text-align: center
+  text-align: center;
   h4
   {
       color:#ff0000;
@@ -36,3 +36,4 @@ body
   align-items: center;
   transition: transform 0.5s ease-in-out;
 }
+
