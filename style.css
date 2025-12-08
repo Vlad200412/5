@@ -1,6 +1,7 @@
 header
 {
   background-color: #1e1e1e;
+  align-items: flex-start;
   color: #fff;
   h1
   {
@@ -38,8 +39,8 @@ body
   }
   slider
   {
-    display: flex;
-    text-align: center;
+    align-items: flex-start;
     transition: transform 0.5s ease-in-out;
   }
 }
+
