@@ -31,6 +31,11 @@ body
     background-color: #1e1e1e;
     color: #fff;
     text-align: center;
+    h4
+    {
+        color:#ff0000
+    }
 }
+
 
 
