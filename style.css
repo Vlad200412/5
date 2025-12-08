@@ -2,6 +2,7 @@ nav
 {
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
 }
 #scrollToTopButton
 {
@@ -26,13 +27,15 @@ body
   {
       color:#ff0000;
   }
-  slider
-  {
-    display: flex;
-    text-align: center;
-    transition: transform 0.5s ease-in-out;
-  }
 }
+.slider
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+
 
 
 
