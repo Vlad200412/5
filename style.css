@@ -2,15 +2,15 @@ header
 {
   background-color: #1e1e1e;
   color: #fff;
-}
-.logo h1
-{
-  text-align: center;
-  color:#eeff00;
-}
-.logo img
-{
-  text-align: center
+  h1
+  {
+    text-align: center;
+    color:#eeff00;
+  }
+  img src
+  {
+    text-align: center
+  }
 }
 #scrollToTopButton
 {
@@ -37,6 +37,7 @@ body
         color:#ff0000;
     }
 }
+
 
 
 
