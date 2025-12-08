@@ -1,41 +1,31 @@
-/* Стили для шапки */
-header {
+header
+{
   background-color: #1e1e1e;
   color: #fff;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-hr {
+body
+{
+  background-color: #1e1e1e;
+  width: 85%; 
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+#scrollToTopButton
+{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  padding: 10px 20px;
+  background-color: #333333; /* Цвет фона кнопки */
+  color: #fff; /* Цвет текста кнопки */
   border: none;
-  border-top: 1px solid #fff;
-  margin: 0 20px; /* Расстояние между линией и меню */
-  height: 1px;
-  flex-grow: 1; /* Равномерное распределение пространства между логотипом и меню */
+  border-radius: 5px;
+  cursor: pointer;
 }
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav li {
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #ff6600;
-}
-
-
-
-
