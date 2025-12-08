@@ -4,12 +4,12 @@ header
   color: #fff;
   h1
   {
-    text-align: center;
+    align-items: center;
     color:#eeff00;
   }
   img src
   {
-    text-align: center
+    align-items: center;
   }
 }
 #scrollToTopButton
@@ -31,7 +31,7 @@ body
   background-color: #1e1e1e;
   color: #fff;
   font-size: 20px;
-  text-align: center;
+  align-items: center;
   h4
   {
       color:#ff0000;
@@ -39,7 +39,8 @@ body
   slider
   {
     display: flex;
-    text-align: center;
+    align-items: center;
     transition: transform 0.5s ease-in-out;
   }
 }
+
