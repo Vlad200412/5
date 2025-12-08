@@ -3,7 +3,15 @@ header
   background-color: #1e1e1e;
   color: #fff;
 }
-
+.logo h1
+{
+  text-align: center;
+  color:#eeff00;
+}
+.logo img
+{
+  text-align: center
+}
 #scrollToTopButton
 {
   display: none;
@@ -12,27 +20,24 @@ header
   right: 20px;
   z-index: 999;
   padding: 10px 20px;
-  background-color: #333333; /* Цвет фона кнопки */
-  color: #fff; /* Цвет текста кнопки */
+  background-color: #333333;
+  color: #fff; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-nav a
-{
-    color: #fff;
 }
 body
 {
     background-color: #1e1e1e;
     color: #fff;
-    font-size: 20px
+    font-size: 20px;
     text-align: center;
     h4
     {
-        color:#ff0000
+        color:#ff0000;
     }
 }
+
 
 
 
