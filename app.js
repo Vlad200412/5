@@ -5,23 +5,19 @@ const slides = Array.from(slider.querySelectorAll('img'));
 const slideCount = slides.length;
 let slideIndex = 0;
 
-// Устанавливаем обработчики событий для кнопок
 prevButton.addEventListener('click', showPreviousSlide);
 nextButton.addEventListener('click', showNextSlide);
 
-// Функция для показа предыдущего слайда
 function showPreviousSlide() {
   slideIndex = (slideIndex - 1 + slideCount) % slideCount;
   updateSlider();
 }
 
-// Функция для показа следующего слайда
 function showNextSlide() {
   slideIndex = (slideIndex + 1) % slideCount;
   updateSlider();
 }
 
-// Функция для обновления отображения слайдера
 function updateSlider() {
   slides.forEach((slide, index) => {
     if (index === slideIndex) {
@@ -32,11 +28,9 @@ function updateSlider() {
   });
 }
 
-// Инициализация слайдера
 updateSlider();
 
 
-//открытие на полный экран
 function openFullscreenImage(element) {
   const fullscreenContainer = document.getElementById('fullscreen-container');
   const fullscreenImage = document.getElementById('fullscreen-image');
@@ -50,7 +44,6 @@ function closeFullscreenImage() {
   fullscreenContainer.style.display = 'none';
 }
 
-// Когда пользователь прокручивает страницу вниз 20px от верха, показать кнопку
 window.onscroll = function() {
   scrollFunction();
 };
@@ -63,7 +56,6 @@ function scrollFunction() {
   }
 }
 
-// Плавный скроллинг при клике на кнопку "Наверх"
 document.getElementById('scrollToTopButton').addEventListener('click', function() {
   scrollToTop();
 });
@@ -77,4 +69,5 @@ function scrollToTop() {
           clearInterval(scrollInterval);
       }
   }, 15);
+
 }
