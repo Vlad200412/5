@@ -7,14 +7,6 @@ header
   justify-content: space-between;
   align-items: center;
 }
-body
-{
-  background-color: #1e1e1e;
-  width: 85%; 
-  margin-left:auto; 
-  margin-right:auto;
-}
-
 #scrollToTopButton
 {
   display: none;
@@ -29,3 +21,4 @@ body
   border-radius: 5px;
   cursor: pointer;
 }
+
