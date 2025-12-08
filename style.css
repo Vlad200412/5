@@ -1,31 +1,26 @@
 nav
 {
   display: flex;
-  justify-content: flex-start;
   align-items: flex-start;
 }
 .column-container
 {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .text_o_nas
 {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .logo
 {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .site-title
 {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 #scrollToTopButton
@@ -52,3 +47,4 @@ body
       color:#ff0000;
   }
 }
+
