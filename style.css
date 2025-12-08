@@ -7,6 +7,7 @@ header
   justify-content: space-between;
   align-items: center;
 }
+
 #scrollToTopButton
 {
   display: none;
@@ -21,4 +22,12 @@ header
   border-radius: 5px;
   cursor: pointer;
 }
-
+nav a
+{
+    color: #fff;
+}
+body
+{
+    background-color: #1e1e1e;
+    color: #fff;
+}
