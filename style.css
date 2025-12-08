@@ -4,6 +4,30 @@ nav
   justify-content: flex-start;
   align-items: flex-start;
 }
+.column-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_o_nas
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site-title
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #scrollToTopButton
 {
   display: none;
@@ -28,14 +52,3 @@ body
       color:#ff0000;
   }
 }
-.slider
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.5s ease-in-out;
-}
-
-
-
-
