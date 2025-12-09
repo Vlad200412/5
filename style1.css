@@ -1,0 +1,48 @@
+header
+{
+  h1
+  {
+    color:#eeff00;
+  }
+}
+nav
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#scrollToTopButton
+{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  padding: 10px 20px;
+  background-color: #333333;
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body
+{
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  background: linear-gradient(45deg, #1e1e1e, #fff);
+  background-attachment: fixed;
+  background-size: cover;
+  h4
+  {
+      color:#ff0000;
+  }
+}
+.slider
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
